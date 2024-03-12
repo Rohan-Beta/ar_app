@@ -84,12 +84,6 @@ class _MyWidgetState extends State<HomeScreen> {
                       arguments: products[index],
                     );
                   },
-                  // onTap: () {
-                  //   Navigator.push(context,
-                  //       MaterialPageRoute(builder: (context) {
-                  //     return ProductArView(product: widget.product);
-                  //   }));
-                  // },
                   child: Container(
                     alignment: Alignment.center,
                     padding: const EdgeInsets.all(8.0),

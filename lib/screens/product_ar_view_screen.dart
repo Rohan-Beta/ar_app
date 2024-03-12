@@ -6,16 +6,16 @@ import 'package:flutter/material.dart';
 import 'package:vector_math/vector_math_64.dart' as vector;
 import 'package:collection/collection.dart';
 
-class ProductArView extends StatefulWidget {
+class ProductArViewScreen extends StatefulWidget {
   final ProductModel product;
 
-  const ProductArView({super.key, required this.product});
+  const ProductArViewScreen({super.key, required this.product});
 
   @override
-  State<ProductArView> createState() => _ProductArViewState();
+  State<ProductArViewScreen> createState() => _ProductArViewState();
 }
 
-class _ProductArViewState extends State<ProductArView> {
+class _ProductArViewState extends State<ProductArViewScreen> {
   late ARKitController controller;
 
   @override
